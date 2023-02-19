@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(221, 233, 233);
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#counter-div {
+    background-color: rgba(114, 209, 212, 0.719);
+    width: 800px;
+    padding: 20px 20px;
+    font-size: 31px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0.3px rgb(190, 190, 190);
+}
+
+#textarea {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(200, 213, 230);
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 0 0 20px 0.3px rgb(182, 181, 181);
+}
+
+#textarea:focus {
+    outline: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: purple;
+}
+
+p {
+    font-size: 11px;
+    color: darkblue;
+}
